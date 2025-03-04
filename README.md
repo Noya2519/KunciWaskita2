@@ -1,44 +1,48 @@
+Berikut adalah versi yang lebih terstruktur dan rapi dari README.md untuk proyek KunciWaskita2:
+
 # KunciWaskita2
-Sebuah aplikasi Enkripsi
-Persyaratan
-Python 3.x sudah terinstal di sistem Anda.
 
-File Python yang ingin diubah menjadi .exe (contoh: KUNCI_WASKITA.py).
+Sebuah aplikasi Enkripsi.
 
-Langkah 1: Install PyInstaller
-Buka terminal atau command prompt.
+## Persyaratan
 
-Jalankan perintah berikut untuk menginstal PyInstaller:
+- Python 3.x sudah terinstal di sistem Anda.
+- File Python yang ingin diubah menjadi .exe (contoh: `KUNCI_WASKITA.py`).
 
-bash
-Copy
-pip install pyinstaller
-Langkah 2: Buat File Executable
-Buka terminal atau command prompt di direktori tempat file Python Anda berada.
+## Langkah-langkah
 
-Jalankan perintah berikut untuk membuat file .exe:
+### Langkah 1: Install PyInstaller
 
-bash
-Copy
-pyinstaller --onefile --windowed KUNCI_WASKITA.py
-Penjelasan Perintah:
+1. Buka terminal atau command prompt.
+2. Jalankan perintah berikut untuk menginstal PyInstaller:
+    ```bash
+    pip install pyinstaller
+    ```
 
---onefile: Menggabungkan semua file menjadi satu file .exe.
+### Langkah 2: Buat File Executable
 
---windowed: Menyembunyikan konsol saat aplikasi dijalankan (opsional, hapus jika Anda ingin melihat konsol).
+1. Buka terminal atau command prompt di direktori tempat file Python Anda berada.
+2. Jalankan perintah berikut untuk membuat file .exe:
+    ```bash
+    pyinstaller --onefile --windowed KUNCI_WASKITA.py
+    ```
 
-KUNCI_WASKITA.py: File Python utama Anda.
+#### Penjelasan Perintah:
 
-Setelah proses selesai, PyInstaller akan membuat beberapa folder dan file. File .exe akan berada di folder dist.
+- `--onefile`: Menggabungkan semua file menjadi satu file .exe.
+- `--windowed`: Menyembunyikan konsol saat aplikasi dijalankan (opsional, hapus jika Anda ingin melihat konsol).
+- `KUNCI_WASKITA.py`: File Python utama Anda.
 
-Langkah 3: Temukan File Executable
-Buka folder dist di direktori proyek Anda.
+Setelah proses selesai, PyInstaller akan membuat beberapa folder dan file. File .exe akan berada di folder `dist`.
 
-Di dalam folder dist, Anda akan menemukan file KUNCI_WASKITA.exe.
+### Langkah 3: Temukan File Executable
 
-File inilah yang dapat Anda jalankan atau distribusikan.
+1. Buka folder `dist` di direktori proyek Anda.
+2. Di dalam folder `dist`, Anda akan menemukan file `KUNCI_WASKITA.exe`.
+3. File inilah yang dapat Anda jalankan atau distribusikan.
 
-Langkah 4: Uji File Executable
-Klik dua kali file KUNCI_WASKITA.exe untuk menjalankannya.
+### Langkah 4: Uji File Executable
 
+1. Klik dua kali file `KUNCI_WASKITA.exe` untuk menjalankannya.
 
+Download versi zip : https://drive.google.com/file/d/17O7aebGyVH2OfmRxNYT_s-ODVoch6E-0/view?usp=sharing
